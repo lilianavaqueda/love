@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me Gustas</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="neon" id="mainMessage">¡Me Gustas!</h1>
+        <p class="subtext" id="subMessage">¿Quieres salir conmigo?</p>
+        <div class="options" id="buttonsContainer">
+            <button class="option-button" id="yesButton" onclick="respond('Sí')">Sí</button>
+            <button class="option-button" id="noButton" onclick="respond('No')">No</button>
+        </div>
+        <div id="heartContainer" class="hidden">
+            <div class="heart"></div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
